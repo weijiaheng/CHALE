@@ -1,7 +1,7 @@
 # CHALE
 Controlled HALlucination-Evaluation (CHALE) Dataset
 
-# Key Components (folders)
+# Key Components
 * ``hallucinated_ans_final_filtered.json``: includes approximately 1000 QA samples, preprint will come soon!
 
 The dataset is in a dictionary format, which includes following keys:
