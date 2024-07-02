@@ -31,6 +31,21 @@ We employed the following methodical steps to construct the CHALE dataset:
  
 * **Step 4: Synthesis of Answers.** We constructed multiple non-hallucinated answers for each question, ensuring their truthfulness and informativeness. In addition, a set of hallucinated answers was created for each question by applying our random matching rules. This involved selecting mismatched questions and answers from the pool of candidates.
 
+**An example**
+
+```
+Question: who played Mantis Guardians of the Galaxy 2?
+
+Short Answer: Pom Klementieff.
+
+Long Answer: Pom Klementieff (born 3 May 1986) is a French actress. She was trained at the Cours Florent drama school in Paris and has appeared in such films as Loup (2009), Sleepless Night (2011), and Hacker's Game (2015). She plays the role of Mantis in the film Guardians of the Galaxy Vol. 2 (2017) and will appear in the same role in the film Avengers: Infinity War (2018).
+
+Non-Hallucinated Answer: Pom Klementieff. She was trained at the Cours Florent drama school in Paris and has appeared in such films as Loup (2009), Sleepless Night (2011), and Hacker's Game (2015).
+
+Hallucinated Answer: Karen Gillan. 2 (2017) and will appear in the same role in the film Avengers: Infinity War (2018). 
+```
+
+
 ### Basic Information
 
 In CHALE, each sample contains the natural question, the short correct answer, a long answer, an annotation ID, etc. We further provide each question with a non-hallucinated answer (correct and informative), a hallucinated answer (incorrect and uninformative), and a half-hallucinated answer (either incorrect yet informative or correct yet uninformative). We include the statistics in the Table below.
