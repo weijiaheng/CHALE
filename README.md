@@ -77,7 +77,7 @@ In CHALE, each sample contains the natural question, the short correct answer, a
 
 
 ## Getting Started (Code)
-* ``hallucinated_ans_final_filtered.json``: includes approximately 1000 QA samples. Preprint will come soon!
+* ``hallucinated_ans_final_filtered.json``: includes approximately 1000 QA samples. **The preprint will come soon!**
 
 The dataset is in a dictionary format, which includes the following keys:
 
