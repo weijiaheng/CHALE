@@ -1,15 +1,6 @@
 # CHALE
 Controlled HALlucination-Evaluation (CHALE) Dataset
 
-## Key Components (Code)
-* ``hallucinated_ans_final_filtered.json``: includes approximately 1000 QA samples. Preprint will come soon!
-
-The dataset is in a dictionary format, which includes the following keys:
-
-**Question**, **Short_ans**, **Long_ans**, **halu**, **mid-halu**, **non-halu**
-
-* ``start_code.py``: a start code to load the data.
-
 ## Detailed Generation of CHALE
 
 The Controlled Hallucination-Evaluation (CHALE) dataset is constructed based on the "[Google Natural Questions](https://ai.google.com/research/NaturalQuestions/visualization)" dataset The original dataset comprises approximately 307,000 training samples. For CHALE, we meticulously selected a subset of around 100,000 samples from these training data. Each selected entry in CHALE contains the following essential components, which are integral to our evaluation framework:
@@ -83,3 +74,13 @@ In CHALE, each sample contains the natural question, the short correct answer, a
     <td style="background-color: #f2f2f2;">167.66</td>
   </tr>
 </table>
+
+
+## Getting Started (Code)
+* ``hallucinated_ans_final_filtered.json``: includes approximately 1000 QA samples. Preprint will come soon!
+
+The dataset is in a dictionary format, which includes the following keys:
+
+**Question**, **Short_ans**, **Long_ans**, **halu**, **mid-halu**, **non-halu**
+
+* ``start_code.py``: a start code to load the data.
